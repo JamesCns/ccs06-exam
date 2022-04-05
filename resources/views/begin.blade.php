@@ -24,18 +24,6 @@
     <input type="text" name="student5_name" value=> <br>
     <button type="submit">Save Students</button>
     @csrf
-</form>
-
-<pre>
-    Dear Sir,
-    
-    With all honesty sir, hanggang dito lang po alam ko gawin, gets ko naman po 
-    concept ng routes and controllers pero kapag nagsabay-sabay na po lahat ng naturo from past lessons
-    di ko na po alam gagawin ko. okay na po ako sa 83 wag lang po sana bagsak sayang po tuition huhu,
-    thank you and God bless po. 
-
-    -with regards
-</pre>
-
+</form>ss
 </body>
 </html>
