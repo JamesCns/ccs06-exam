@@ -8,22 +8,24 @@
 
 </head>
 <body>
-    
-<h2>Enter name of Students</h2><br>
-
-<form action="/enter-grades" method=POST>
-    <label for="s1name">Student 1 Name:</label><br>
-    <input type="text" name="student1_name" value=> <br>
-    <label for="s2name">Student 2 Name:</label><br>
-    <input type="text" name="student2_name" value=> <br>
-    <label for="s3name">Student 3 Name:</label><br>
-    <input type="text" name="student3_name" value=> <br>
-    <label for="s4name">Student 4 Name:</label><br>
-    <input type="text" name="student4_name" value=> <br>
-    <label for="s5name">Student 5 Name:</label><br>
-    <input type="text" name="student5_name" value=> <br>
-    <button type="submit">Save Students</button>
-    @csrf
-</form>ss
+<div align="left">
+    <h2>Enter name of Students</h2>
+    <form action="/enter-grades" method=POST>
+        @csrf   
+        <label for="s1name">Student 1 Name:</label><br>
+        <input class="form-control" type="text" name="student1_name" placeholder="Enter Name" required>
+        <label for="s2name">Student 2 Name:</label><br>
+        <input class="form-control" type="text" name="student2_name"placeholder="Enter Name" required>
+        <label for="s3name">Student 3 Name:</label><br>
+        <input class="form-control" type="text" name="student3_name"placeholder="Enter Name" required>
+        <label for="s4name">Student 4 Name:</label><br>
+        <input class="form-control" type="text" name="student4_name"placeholder="Enter Name" required>
+        <label for="s5name">Student 5 Name:</label><br>
+        <input class="form-control" type="text" name="student5_name"placeholder="Enter Name" required>
+        <div class="d-grid gap-2">
+        <button class="btn btn-primary" type="submit">Save Students</button>
+        </div>
+    </form>
+</div>
 </body>
 </html>
